@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảng Trình Độ Học Vấn - Công Ty A</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .footer {
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Trình độ học vấn của nhân sự công ty A</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Tên</th>
+        <th rowspan="2">Tuổi</th>
+        <th colspan="2">Trình độ học vấn</th>
+        <th rowspan="2">Bằng cấp tiếng Anh</th>
+      </tr>
+      <tr>
+        <th>Bằng cấp cao nhất</th>
+        <th>Cấp năm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nguyên</td>
+        <td>32</td>
+        <td>Đại học</td>
+        <td>2014</td>
+        <td>Không có</td>
+      </tr>
+      <tr>
+        <td>Lý</td>
+        <td>29</td>
+        <td>Cao đẳng</td>
+        <td>2017</td>
+        <td>Không có</td>
+      </tr>
+      <tr>
+        <td>Tiên</td>
+        <td>28</td>
+        <td>Đại học</td>
+        <td>2018</td>
+        <td>IELTS</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5" class="footer">Trung bình nhân sự có Bằng cấp tiếng Anh: <strong>33.33%</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
